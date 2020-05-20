@@ -4,11 +4,11 @@
 var tiempo = "sol";
 
 if(tiempo == "sol") {
-    console.lot("Buenos días")
-}else if (tiempo == "nublado" ) {
-    console.log("Está nublado, no salgas a la calle!")
+    console.log("Buenos días")
+}else if (tiempo == "nublado") {
+    console.log("Está nublado, no salgas a la calle!");
 } else {
-    console.log("Buenas noches")
+    console.log("Buenas noches");
 }
 
 //cuidado que aunque se cumpla una condición previa, el resto de else if o else se ejecutan
@@ -21,10 +21,12 @@ switch (tiempo) {
     case "sol":
         console.log("Buenos días");
         break;
-    case "nublado":
+    
+        case "nublado":
         console.log("No salgas a la calle");
         break;
-    case "luna":
+    
+        case "luna":
         console.log("Buenas noches");
         break;
      

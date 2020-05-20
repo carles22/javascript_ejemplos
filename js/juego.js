@@ -10,7 +10,7 @@ var elementos_del_juego = ["piedra", "papel", "tijera"];
 
 // FUNCIONES
 
-fuction game(jugador01, jugador02) {
+function game(jugador01, jugador02) {
     // comprobar empate
     if(jugador01 == jugador02){
         console.log(`EMPATE por ${elementos_del_juego[jugador01]}`);
